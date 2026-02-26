@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Banner</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cormorant+Garamond:wght@700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="main-banner">
+
+        <!-- ================= HEADER ================= -->
+        <header class="banner-header">
+            <div class="container">
+                <div class="header-wrapper d-flex align-items-center justify-content-between">
+
+                    <!-- Logo -->
+                    <div class="header-logo">
+                        <img src="./images/logo.png" alt="Logo">
+                    </div>
+
+                    <!-- Desktop Menu -->
+                    <nav class="header-nav d-none d-lg-flex">
+                        <ul class="menu-pill">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Journal</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Desktop CTA -->
+                    <a href="#" class="btn header-btn d-none d-lg-inline-flex">
+                        Start a Conversation
+                    </a>
+
+                    <!-- Mobile Toggle -->
+                    <button class="menu-toggle d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu"
+                        aria-label="Menu">
+                        ☰
+                    </button>
+
+                </div>
+            </div>
+        </header>
+
+        <!-- ================= OFFCANVAS MENU ================= -->
+        <div class="offcanvas offcanvas-end mobile-menu" tabindex="-1" id="mobileMenu">
+            <div class="offcanvas-header">
+                <img src="./images/logo.png" alt="Logo" class="offcanvas-logo">
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+            </div>
+
+            <div class="offcanvas-body">
+                <ul class="mobile-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Journal</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+                <a href="#" class="btn banner-btn w-100 mt-4">
+                    Start a Conversation
+                </a>
+            </div>
+        </div>
+
+        <!-- ================= BANNER CONTENT ================= -->
+        <div class="banner-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+
+                        <h1 class="banner-title">
+                            The Art of Modern<br>Garden Living
+                        </h1>
+
+                        <p class="banner-subtitle">
+                            We create refined garden spaces that connect nature with modern living —
+                            timeless, sustainable, and uniquely yours.
+                        </p>
+
+                        <a href="#" class="btn banner-btn">
+                            View Our Work
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="confidence-section">
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="confidence-title">
+                        Designing Gardens with<br>Quiet Confidence
+                    </h2>
+                </div>
+            </div>
+
+            <!-- Images -->
+            <div class="row confidence-images justify-content-center g-0">
+                <div class="col-lg-3 col-md-6 confidence-col">
+                    <img src="./images/Rectangle 2.png" class="confidence-img img-1" alt="">
+                </div>
+
+                <div class="col-lg-3 col-md-6 confidence-col overlap-left">
+                    <img src="./images/Rectangle 3 (2).png" class="confidence-img img-2" alt="">
+                </div>
+
+                <div class="col-lg-3 col-md-6 confidence-col overlap-left">
+                    <img src="./images/Rectangle 4.png" class="confidence-img img-3" alt="">
+                </div>
+
+                <div class="col-lg-3 col-md-6 confidence-col overlap-left">
+                    <img src="./images/Rectangle 5.png" class="confidence-img img-4" alt="">
+                </div>
+            </div>
+
+            <div class="container confidence-container">
+                <!-- Text Content -->
+                <div class="row confidence-text">
+
+                    <!-- Left -->
+                    <div class="col-lg-6 mb-4">
+                        <p class="confidence-desc">
+                            <span class="drop-cap">A</span>t Summer Breeze Garden Design, we believe
+                            every landscape should tell a quiet story — one that evolves gently with
+                            time and the changing seasons. Our approach is rooted in balance: between
+                            structure and softness, architecture and nature, beauty and function.
+                            Each garden is carefully composed to reflect its surroundings, its owners,
+                            and the subtleties of the environment.
+                        </p>
+                    </div>
+
+                    <!-- Right -->
+                    <div class="col-lg-6">
+                        <p class="confidence-desc">
+                            From initial sketches to the final planting, we design with intention —
+                            layering texture, light, and movement to create spaces that invite calm and
+                            connection. Whether it’s a private courtyard, a coastal retreat, or a
+                            contemporary family garden, our work is guided by a deep respect for
+                            craftsmanship, materials, and the natural landscape.
+                        </p>
+
+                        <a href="#" class="btn banner-btn mt-3">
+                            Learn More About Us
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="featured-projects-section">
+        <div class="container">
+
+            <!-- Section Heading -->
+            <div class="text-center mb-5">
+                <h2 class="fp-title">Featured Projects</h2>
+                <p class="fp-subtitle">
+                    A selection of private gardens that reflect our approach to form, texture, and balance.
+                </p>
+            </div>
+
+            <!-- Content Row -->
+            <div class="row align-items-center gy-5 g-5">
+
+                <!-- Left Content -->
+                <div class="col-lg-6">
+
+                    <h3 class="project-title">Byron Bay Retreat.</h3>
+
+                    <p class="project-description">
+                        Nestled along the serene Byron Bay coastline, this garden was designed as a seamless
+                        extension of a modern coastal home — a space where architecture and nature exist in quiet
+                        harmony. The design celebrates openness, soft movement, and natural textures, drawing
+                        inspiration from the surrounding dunes and native vegetation. Layers of native grasses,
+                        soft coastal planting, and pale stone pathways create a tactile connection to the
+                        landscape, while carefully positioned seating areas invite moments of reflection and calm.
+                    </p>
+
+                    <!-- View Project Button -->
+                    <a href="#" class="btn view-project-btn mb-4">
+                        View Project
+                    </a>
+
+                    <!-- Navigation Buttons -->
+                    <div class="d-flex gap-3 flex-wrap">
+
+                        <!-- Previous -->
+                        <a href="#" class="project-nav-btn prev-btn">
+                            <img src="./images/ArrowRight.png" alt="Previous" class="nav-icon">
+                            <span>Previous</span>
+                        </a>
+
+                        <!-- Next -->
+                        <a href="#" class="project-nav-btn next-btn">
+                            <span>Next: Stillwater Garden</span>
+                            <img src="./images/ArrowRight (1).png" alt="Next" class="nav-icon">
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- Right Image -->
+                <div class="col-lg-6">
+                    <div class="project-image-wrapper">
+                        <img src="./images/Rectangle 7 (1).png" alt="Project Image" class="project-image">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="calm-section d-flex align-items-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+
+                    <h2 class="calm-heading">
+                        Calm. Crafted.
+                        <span class="connected-text">CONNECTED.</span>
+                    </h2>
+
+                    <p class="calm-description">
+                        We believe great gardens are not just planted — they are composed.
+                        Every detail, from paving to planting, is considered with balance
+                        and intention. Our work seeks a dialogue between structure and
+                        softness, design and nature.
+                    </p>
+
+                    <a href="#" class="btn primary-pill-btn mt-4">
+                        Start a Conversation
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="expertise-section">
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="row justify-content-center text-center mb-4">
+                <div class="col-lg-8">
+                    <h2 class="expertise-heading">Our Expertise</h2>
+                    <p class="expertise-subheading">
+                        From concept to completion — a tailored approach to each landscape.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Cards -->
+            <div class="row g-4 justify-content-center">
+
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="expertise-card text-center">
+
+                        <div class="expertise-img-wrap">
+                            <img src="./images/Rectangle 11.png" alt="Garden Design" class="expertise-img">
+                            <div class="expertise-icon">
+                                <img src="./images/Group 1 (5).png" alt="">
+                            </div>
+                        </div>
+
+                        <h3 class="expertise-title">Garden Design</h3>
+                        <p class="expertise-text">
+                            Thoughtful master plans blending structure, planting,
+                            and material harmony.
+                        </p>
+
+                        <a href="#" class="expertise-btn">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="expertise-card text-center">
+
+                        <div class="expertise-img-wrap">
+                            <img src="./images/Rectangle 12.png" alt="Planting Design" class="expertise-img">
+                            <div class="expertise-icon">
+                                <img src="./images/Group 2 (1).png" alt="">
+                            </div>
+                        </div>
+
+                        <h3 class="expertise-title">Planting Design</h3>
+                        <p class="expertise-text">
+                            Layered, seasonal compositions for lasting
+                            texture and colour.
+                        </p>
+
+                        <a href="#" class="expertise-btn">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="expertise-card text-center">
+
+                        <div class="expertise-img-wrap">
+                            <img src="./images/Rectangle 13.png" alt="Consultation & Maintenance" class="expertise-img">
+                            <div class="expertise-icon">
+                                <img src="./images/Group 3.png" alt="">
+                            </div>
+                        </div>
+
+                        <h3 class="expertise-title">Consultation &amp; Maintenance</h3>
+                        <p class="expertise-text">
+                            Ongoing care advice to preserve balance as
+                            your garden evolves.
+                        </p>
+
+                        <a href="#" class="expertise-btn">Learn More</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Bottom CTA -->
+            <div class="row justify-content-center mt-5">
+                <div class="col-auto">
+                    <a href="#" class="btn primary-pill-btn">
+                        View All Services
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="refresh-section">
+        <div class="container">
+
+            <div class="refresh-box text-center">
+                <h2 class="refresh-heading">
+                    Ready to Refresh<br>Your Outdoor Space?
+                </h2>
+
+                <p class="refresh-subheading">
+                    We’d love to discuss your next garden project.
+                </p>
+
+                <a href="#" class="btn primary-pill-btn mt-4">
+                    Start a Conversation
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="site-footer">
+
+        <!-- ===== TOP ROW (FULL WIDTH) ===== -->
+        <div class="footer-top-full">
+            <div class="footer-top-inner">
+
+                <!-- Logo -->
+                <div class="footer-logo-pill">
+                    <img src="./images/Group 8 (1).png" alt="Summer Breeze Garden">
+                </div>
+
+                <!-- Center text + socials -->
+                <div class="footer-center d-flex align-items-center gap-4">
+                    <h3 class="footer-title mb-0">Connect With Us</h3>
+
+                    <div class="footer-social d-flex gap-3">
+                        <a href="#"><img src="./images/Frame 27.png" alt=""></a>
+                        <a href="#"><img src="./images/Frame 28.png" alt=""></a>
+                        <a href="#"><img src="./images/Frame 29.png" alt=""></a>
+                        <a href="#"><img src="./images/Frame 30.png" alt=""></a>
+                    </div>
+                </div>
+
+                <!-- CTA buttons -->
+                <div class="footer-cta d-flex flex-column gap-3">
+                    <a href="#" class="btn primary-pill-btn sc">
+                        Start a Conversation
+                    </a>
+
+                    <a href="#" class="btn primary-pill-btn d-flex align-items-center gap-2 ph">
+                        <img src="./images/phone.png" alt="">
+                        <span>+123 456 7890</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ===== CONTAINER START ===== -->
+        <div class="container">
+
+            <!-- Divider (NOW INSIDE CONTAINER) -->
+            <div class="footer-divider"></div>
+
+            <!-- Footer middle content -->
+            <div class="row footer-middle gy-4">
+
+                <!-- Newsletter -->
+                <div class="col-lg-4 footer-newsletter-col">
+                    <h4 class="footer-heading underline-newsletter">
+                        Subscribe To Our Newsletter
+                    </h4>
+
+                    <p class="footer-text">
+                        Subscribe to join our community and stay up to date with the studio.
+                    </p>
+
+                    <div class="footer-newsletter">
+                        <input type="email" placeholder="Enter your email">
+                        <button>
+                            <img src="./images/send (1) 1.png" alt="Send">
+                        </button>
+                    </div>
+
+                    <p class="footer-copy">
+                        © 2025 Summer Breeze Garden Design.<br>
+                        All rights reserved.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-2">
+                    <h4 class="footer-heading underline-links">Quick Links</h4>
+                    <ul class="footer-list">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Projects</li>
+                        <li>Services</li>
+                        <li>Journal</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="col-lg-3">
+                    <h4 class="footer-heading underline-services">Our Services</h4>
+                    <ul class="footer-list">
+                        <li>Garden Design</li>
+                        <li>Planting Design</li>
+                        <li>Consultation & Maintenance</li>
+                        <li>Water Features & Ponds</li>
+                        <li>Lighting Design</li>
+                        <li>Garden Renovation</li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="col-lg-3">
+                    <h4 class="footer-heading underline-contact">Contact us</h4>
+                    <p class="footer-text">
+                        Lorem Ipsum es simplemente el texto de relleno de las.
+                    </p>
+                    <p class="footer-text">+123 456 7890</p>
+                    <p class="footer-text">info@summerbreezegarden.com</p>
+                </div>
+
+            </div>
+
+            <!-- Bottom brand image -->
+            <div class="footer-brand text-center mt-5">
+                <img src="./images/Group 10 (1).png" alt="">
+            </div>
+
+        </div>
+        <!-- ===== CONTAINER END ===== -->
+
+    </footer>
+
+
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
